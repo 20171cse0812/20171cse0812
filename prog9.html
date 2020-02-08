@@ -3,27 +3,40 @@
  <title> time table </title>
 </head>
   <body>
+ <marquee  behavior="alternate" direction ="right" scrollamount="50">
   <table border = "5" CELLPADDING="10" CELLSPACING="6">
   <CAPTION ALIGN="top">
   sec 12 timetable
   </CAPTION>
+ <tbody style="background-color:lightgreen;">
   <tr> 
+  <tr style="background-color:pink;">
   <th>days</th>
   <th>1st hr</th>
   <th>2nd hr</th>
-  <th>break</th>
+ <td>break</td>
   <th>3rd hr</th>
-  <th>break</th>
+ <td >break</td>
   <th>4th hr</th>
   <th>5th hr</th>
   <th>6th hr</th>
+ </tr>
+ <tr style="background-color:pink;">
+ <td>time</td>
+ <td>9:00-10:00</td>
+ <td>10:00-11:00</td>
+  <td>11:00-12:00</td>
+ <td>12:00-1:00</td>
+ <td>1:00-2:00</td>
+ <td>2:00-30:00</td>
+ <td>3:00-4:00</td>
+ <td>4:00-5:00</td>
   </tr>
-  <tr>
   <td>Monday</td>
-  <td colspan = "2">AT</td>
-  <td rowspan = "5" >break</td>
+  <td colspan = "2" style="background-color:orange;">AT</td>
+ <td rowspan = "5" style="background-color:yellow;" >break</td>
   <td> DM</td>
- <td rowspan = "5" >break</td>
+<td rowspan = "5" style="background-color:yellow;" >break</td>
   <td>DE</TD>
   <td colspan = "2">IT lab</td>
  </tr>
@@ -39,7 +52,7 @@
  <td>DE</td>
  <td>GTC</td>
  <td>dm</td>
- <td>cch</td>
+ <td style="background-color:lightblue;">cch</td>
  <td colspan = "2">NP lab</td>
   </tr>
  <tr>
@@ -47,7 +60,7 @@
  <td>ooad</td>
  <td>it</td>
  <td>gtc</td>
- <td>cch</td>
+ <td style="background-color:lightblue;">cch</td>
  <td colspan = "2">NPlab</td>
   </tr>
  <tr>
@@ -56,9 +69,11 @@
  <td>dm</td>
  <td>gtc</td>
  <td>ooad</td>
- <td>cch</td>
+ <td style="background-color:lightblue;">cch</td>
  </tr>
 </table>
 </body>
+</tbody>
+</marquee>
 </html>
  
